@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Predictor Results</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="/assets/table2.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+  <h1 style="text-align: center;">
+    Analytical Results
+  </h1>
+  <div class="table">
+
+    <div class="row header green">
+      <div class="cell">
+        Category
+      </div>
+      <div class="cell">
+        Calculated Prediction
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="cell" data-title="Product">
+        Short-Term Machine Prediction of your Trophy Count (~1 week)
+      </div>
+      <div class="cell" data-title="Unit Price">
+        <%= row1 %>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="cell" data-title="Product">
+        Long-Term Machine Prediction of your Trophies (~2-3 months)
+      </div>
+      <div class="cell" data-title="Unit Price">
+        <%= row2 %>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="cell" data-title="Product">
+        Card You'll Likely Win With (Mastered it!)
+      </div>
+      <div class="cell" data-title="Unit Price">
+        <%= row3 %>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="cell" data-title="Product">
+        Opponent's Card You'll Likely Get Beat With
+      </div>
+      <div class="cell" data-title="Unit Price">
+        <%= row4 %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="cell" data-title="Product">
+        Most Frequent Card You Lose With
+      </div>
+      <div class="cell" data-title="Unit Price">
+        <%= row5 %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="cell" data-title="Product">
+          Most Frequent Card You Win Against
+      </div>
+      <div class="cell" data-title="Unit Price">
+        <%= row6 %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="cell" data-title="Product">
+        Predicted # Battles Until Next 3-Crown Victory
+      </div>
+      <div class="cell" data-title="Unit Price">
+        <%= row7 %>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  </div>
+
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+</body>
+
+<footer style="background-color:yellowgreen; font-size:15px; padding: 0px;">
+    <iframe style="background-color:lime" src="https://open.spotify.com/follow/1/?uri=spotify:artist:7s7uI8Zz7K0YxuN4eUGnWw&size=detail&theme=light&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+    <p style="text-align:right;">Created smoothly in 2018 | <a href="https://zoywongus.github.io">Troy Williams</a></p>
+
+</footer>
+
+
+</html>
